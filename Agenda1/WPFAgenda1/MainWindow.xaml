@@ -13,5 +13,6 @@
         <DatePicker Height="25" HorizontalAlignment="Left" Margin="221,52,0,0" Name="dpFechaIni" VerticalAlignment="Top" Width="166" />
         <DatePicker Height="25" HorizontalAlignment="Left" Margin="221,83,0,0" Name="dpFechaFin" VerticalAlignment="Top" Width="166" />
         <TextBlock Height="85" HorizontalAlignment="Left" Margin="221,114,0,0" Name="tblObjetivoProy" Text="" VerticalAlignment="Top" Width="203" />
+        <Image Height="150" HorizontalAlignment="Left" Margin="10,10,0,0" Name="iImagen" Stretch="Fill" VerticalAlignment="Top" Width="200" />
     </Grid>
 </Window>
