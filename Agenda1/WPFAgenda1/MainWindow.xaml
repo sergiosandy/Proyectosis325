@@ -1,0 +1,17 @@
+﻿<Window x:Class="WPFAgenda1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Nuevo Proyecto" Height="306" Width="525" Name="wNuevoProy" Loaded="wNuevoProy_Loaded">
+    <Grid Height="265">
+        <Label Content="Nombre del Proyecto:" Height="28" HorizontalAlignment="Left" Margin="85,23,0,0" Name="lNombreProy" VerticalAlignment="Top" />
+        <Label Content="Fecha de Inicio:" Height="28" HorizontalAlignment="Left" Margin="120,52,0,0" Name="lFechaIni" VerticalAlignment="Top" />
+        <Label Content="Fecha de Finalización:" Height="28" HorizontalAlignment="Left" Margin="87,80,0,0" Name="lFechaFin" VerticalAlignment="Top" />
+        <Label Content="Objetivo:" Height="28" HorizontalAlignment="Left" Margin="153,114,0,0" Name="lObjetivoProy" VerticalAlignment="Top" />
+        <Button Content="Crear" Height="23" HorizontalAlignment="Left" Margin="181,219,0,0" Name="bCrearProy" VerticalAlignment="Top" Width="75" />
+        <Button Content="Cancelar" Height="23" HorizontalAlignment="Left" Margin="275,219,0,0" Name="bCancelar" VerticalAlignment="Top" Width="75" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="221,23,0,0" Name="tbNombreProy" VerticalAlignment="Top" Width="203" />
+        <DatePicker Height="25" HorizontalAlignment="Left" Margin="221,52,0,0" Name="dpFechaIni" VerticalAlignment="Top" Width="166" />
+        <DatePicker Height="25" HorizontalAlignment="Left" Margin="221,83,0,0" Name="dpFechaFin" VerticalAlignment="Top" Width="166" />
+        <TextBlock Height="85" HorizontalAlignment="Left" Margin="221,114,0,0" Name="tblObjetivoProy" Text="" VerticalAlignment="Top" Width="203" />
+    </Grid>
+</Window>
